@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wjAtvBe8g0aw4BnrBSHSeQ" Reference="K5uSqGX57kuQTfnDmN_IOg/kFvpzuC47kS96RyqRg0OqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/index.html" CVScreenId="1da98e02-fc0f-4cea-a011-bb005cca89f1" CvTextArea="1599, 182, 57, 20" CvTextArgument="Sign In" CvType="Text" DesignTimeRectangle="1601, 161, 55, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='SignIn' tag='A' type='' class='nav-link' aaname='Sign In' check:innerText='Sign In' /&gt;" Guid="9160241c-ca4b-41f9-954c-fc96b5698d54" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customer Service' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1da98e02-fc0f-4cea-a011-bb005cca89f1" CvElementArea="845, 168, 486, 48" CvType="InputBox" DesignTimeRectangle="849, 171, 480, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control form-control-dark w-25' placeholder='Search' aaname='' /&gt;" Guid="0d2dd05a-837f-4e4b-b913-6e356e6e3c99" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18f1305e8c848638b0d7d8cb5bd52e13.png" xmlns="">0SM8aWMWyP0Kug2o11W-d1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

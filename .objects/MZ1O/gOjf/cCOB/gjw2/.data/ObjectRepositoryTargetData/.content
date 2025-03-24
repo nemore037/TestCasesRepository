@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4DmqmaXdFE6Mj1X1z9JnwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/login.html" CVScreenId="700fde2d-766a-4374-965e-171d37600649" CvElementArea="747, 548, 92, 46" CvTextArea="765, 561, 57, 16" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="750, 551, 87, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='submit-id' tag='BUTTON' type='submit' class='btn btn-default btn-primary' aaname='Submit' check:innerText='Submit' /&gt;" Guid="0a6c2a2f-5714-4b6c-aa09-f412c83170bb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customer Service - Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c0ebc046ae835ced46af10b8e4d21d99.png" xmlns="">0KqJmPilKQU6jpflUcM66nA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

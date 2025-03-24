@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cSbiW1uDZUKAJcCvQLVODA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/login.html" CVScreenId="d33f4012-6980-46f1-9eb5-7b5d9132d6f4" CvTextArea="922, 277, 91, 40" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="750, 274, 438, 42" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='text-center' aaname='Login' check:innerText='Login' /&gt;" Guid="13f4a0cf-6f46-4971-85eb-688debbd0c44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customer Service - Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d33f4012-6980-46f1-9eb5-7b5d9132d6f4" CvTextArea="749, 330, 119, 16" CvTextArgument="Email address" CvType="Text" DesignTimeRectangle="750, 328, 119, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email address' check:innerText='Email address' /&gt;" Guid="3d934ad4-01cd-4fe4-b232-57e3cfef606f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7050cbd165ac6417970da4db019f4ea6.png" xmlns="">0ZT-Qd8lYp0iv1dvYPBc1rQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

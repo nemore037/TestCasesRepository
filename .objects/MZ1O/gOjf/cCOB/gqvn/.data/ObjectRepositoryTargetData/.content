@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4pVRPtdzxEuZP2Rv6Q5bNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/customers.html" CVScreenId="1dd66ec8-3e68-47f0-bbc9-714613457352" CvTextArea="1585, 182, 71, 20" CvTextArgument="Sign Out" CvType="Text" DesignTimeRectangle="1587, 161, 68, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='nav-link' tag='A' type='' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="90ede2d7-4cca-4647-8f51-b28b2666071e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customers' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1dd66ec8-3e68-47f0-bbc9-714613457352" CvElementArea="836, 171, 479, 30" CvType="InputBox" DesignTimeRectangle="835, 174, 479, 25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control form-control-dark w-25' placeholder='Search' aaname='' /&gt;" Guid="b210badc-a71d-4e82-8c2c-da12827b9b3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6173e57a5349f899c80d05156ea1a03.png" xmlns="">03vw9pLRwOUClhIHlPkIggw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

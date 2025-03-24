@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mUhTgqu8U062vDahkzeLNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/sign-out.html" CVScreenId="0b5ec0f5-ed5f-4337-844d-06ce74469b01" CvTextArea="892, 277, 191, 38" CvTextArgument="Signed Out" CvType="Text" DesignTimeRectangle="797, 274, 382, 42" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='Signed Out' check:innerText='Signed Out' /&gt;" Guid="5161f3bc-4014-4406-998d-5fde6dad1b03" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Signed Out' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b5ec0f5-ed5f-4337-844d-06ce74469b01" CvTextArea="795, 330, 384, 16" CvTextArgument="Thank you for using the CRM. See you next time!" CvType="Text" DesignTimeRectangle="797, 328, 382, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='Thank you for using the CRM. See you next time!' check:innerText='Thank you for using the CRM. See you next time!' /&gt;" Guid="4c1d6771-9044-4ed0-ad0e-b907b88aee1c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1f3d5054f6cb09a9d476a645d1b57068.png" xmlns="">0KtDMLtYXf0SzmrCt5H50YQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

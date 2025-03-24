@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Recibidos (1) - nestor.moreno@hpcg.com",
+  "Type": "Screen",
+  "Id": "ez0DjywhhEuJGBghb-hikg",
+  "Reference": "K5uSqGX57kuQTfnDmN_IOg/ez0DjywhhEuJGBghb-hikg",
+  "ParentRef": "K5uSqGX57kuQTfnDmN_IOg/yOHYzO448kKeyHqN26xmXQ",
+  "Created": "2025-02-11T17:46:13.760879Z",
+  "Updated": "2025-02-11T17:46:13.760879Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

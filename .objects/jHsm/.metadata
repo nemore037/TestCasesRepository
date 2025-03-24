@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Recibidos (1) - nestor.moreno@hpcg.com.mx - Correo de HPCG",
+  "Type": "App",
+  "Id": "jHsmsjDwtEiOXIwprNFEIA",
+  "Reference": "K5uSqGX57kuQTfnDmN_IOg/jHsmsjDwtEiOXIwprNFEIA",
+  "Created": "2025-02-11T17:46:13.5642736Z",
+  "Updated": "2025-02-11T17:46:13.5642736Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
