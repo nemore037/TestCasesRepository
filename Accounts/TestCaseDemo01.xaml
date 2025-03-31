@@ -91,7 +91,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="824.0000000000001,5078.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="833.6000000000001,4862.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="Current_Browser" />
     </Sequence.Variables>
@@ -100,27 +100,27 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="617.6,5055.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="617.6,4839.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Setup" sap:VirtualizedContainerService.HintSize="584,4069.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="Setup" sap:VirtualizedContainerService.HintSize="584,3853.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard CloseMode="Never" DisplayName="Open Browser &amp; Navigate to CRM" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,3977.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" OutUiElement="[Current_Browser]" ScopeGuid="43b30af6-fb86-40b0-8cde-ed8dcbc02cad" WindowResize="Maximize">
+        <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,3738.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" OutUiElement="[Current_Browser]" ScopeGuid="43b30af6-fb86-40b0-8cde-ed8dcbc02cad" WindowResize="Maximize">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,3697.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,3521.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Default="nestor.moreno@outlook.es" Name="User" />
                   <Variable x:TypeArguments="x:String" Default="Acceso1234*" Name="Password" />
@@ -132,7 +132,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Test 1: Starting Steps&quot;]" />
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Test 1: Browser is open&quot;]" />
-                <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="483.2,100.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -163,7 +163,7 @@
                     </uix:VerifyExecutionOptions>
                   </uix:NClick.VerifyOptions>
                 </uix:NClick>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Acceso a pantalla de login completado&quot;]" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Acceso a pantalla de login completado exitosamente&quot;]" />
                 <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT  email-id'" sap:VirtualizedContainerService.HintSize="483.2,188" sap2010:WorkflowViewState.IdRef="SetValue_1" Text="[User]">
                   <ui:SetValue.Target>
                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="79db5242-cdd8-4be4-979e-a692f9b2e676" InformativeScreenshot="b8dc254211c827b0e29c5d01323f00bf" Selector="&lt;webctrl id='email-id' tag='INPUT' /&gt;">
@@ -206,7 +206,7 @@
                     </uix:VerifyExecutionOptions>
                   </uix:NClick.VerifyOptions>
                 </uix:NClick>
-                <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="483.2,100.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -221,7 +221,7 @@
                   </uix:NCheckElement.Target>
                 </uix:NCheckElement>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Acceso completado con exito&quot;]" />
-                <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="483.2,1116.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="483.2,1028.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -230,7 +230,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="449.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Test 1: Verifying&quot;]" />
                   <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Escritura y carga de credenciales validas" Expression="True" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
-                  <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="449.6,100.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -243,7 +243,7 @@
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="automationplayground.com/crm/customers.html" CVScreenId="1dd66ec8-3e68-47f0-bbc9-714613457352" ContentHash="4pVRPtdzxEuZP2Rv6Q5bNA" CvTextArea="1585, 182, 71, 20" CvTextArgument="Sign Out" CvType="Text" DesignTimeRectangle="1587, 161, 68, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='nav-link' tag='A' type='' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="90ede2d7-4cca-4647-8f51-b28b2666071e" InformativeScreenshot="d6173e57a5349f899c80d05156ea1a03.png" Reference="K5uSqGX57kuQTfnDmN_IOg/gqvngKM-QUeukE8rh_qz0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customers' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="1dd66ec8-3e68-47f0-bbc9-714613457352" CvElementArea="836, 171, 479, 30" CvType="InputBox" DesignTimeRectangle="835, 174, 479, 25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control form-control-dark w-25' placeholder='Search' aaname='' /&gt;" Guid="b210badc-a71d-4e82-8c2c-da12827b9b3f" SearchSteps="FuzzySelector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -260,7 +260,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="449.6,100.8" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <Sequence DisplayName="Deploying Delay" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_15">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -274,7 +274,7 @@
                     <uix:NCheckElement.Target>
                       <uix:TargetAnchorable BrowserURL="automationplayground.com/crm/sign-out.html" CVScreenId="0b5ec0f5-ed5f-4337-844d-06ce74469b01" ContentHash="mUhTgqu8U062vDahkzeLNA" CvTextArea="892, 277, 191, 38" CvTextArgument="Signed Out" CvType="Text" DesignTimeRectangle="797, 274, 382, 42" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='Signed Out' check:innerText='Signed Out' /&gt;" Guid="5161f3bc-4014-4406-998d-5fde6dad1b03" InformativeScreenshot="1f3d5054f6cb09a9d476a645d1b57068.png" Reference="K5uSqGX57kuQTfnDmN_IOg/AmFjrGl9_EWnBDjxPvch3Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Signed Out' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="0b5ec0f5-ed5f-4337-844d-06ce74469b01" CvTextArea="795, 330, 384, 16" CvTextArgument="Thank you for using the CRM. See you next time!" CvType="Text" DesignTimeRectangle="797, 328, 382, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='Thank you for using the CRM. See you next time!' check:innerText='Thank you for using the CRM. See you next time!' /&gt;" Guid="4c1d6771-9044-4ed0-ad0e-b907b88aee1c" SearchSteps="FuzzySelector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -286,7 +286,7 @@
             </ActivityAction>
           </uix:NApplicationCard.Body>
           <uix:NApplicationCard.TargetApp>
-            <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="TdLZ4GicVkOlkvfLtRMZVA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGySURBVDhPpZHdK4NRHMf9E0q5cOHKhQsvKcmN0pJcuELKDSkXLly40iaEG8qFcCOTkNawsheytqWJbXm5sHm3Z6+esc08PQ3z7Kvn4Ox5tkj51u90Tqfv5/x+35Pncrnwn8oTF6kmLSc4Z+OI8km8C2nZXbZkAAfDwnYdRP7AAuqmdSgZW4VS78j2yEQB6TRQPqEhZmn1bdjhj3PZPipZB4NGJzF1r1lhvgygULVIzorZrWwfFQWYPD766vC2C0yMQ9HQEopHlkkeUllDPGbO4ki8ChlAjH/BwqEHBUp1zhh6tw8rVwnMnz8RQJMpgFLNHbS3nHwEX4wjhoqvLFoXdzBlPYUnyhODWG3mEN3X6pjcb3QyEaQEgYQn5hBJvkP8yKoNLzF1WMJQXySg83KYc8dzAVJZgp8v1+gYlGm92LzjyOyNxgCqNxm07AZ/B2hvn2m7y1cJdNnC9PxdvwJE9e2zqNf7obnJwP4ECPMp9B9EULnuhcr5gF47S03N20Gs3TyTMX4EOCJJahg/jqJT0v7YcZQE224O/Qzg3gSSdoPBj569e4wePcpaVxj88hH+Ux9ONlbv+WacjwAAAABJRU5ErkJggg==" InformativeScreenshot="764e01a344527d0476daa8fbf4ad52bb.jpg" Reference="K5uSqGX57kuQTfnDmN_IOg/cCOBaQb48k2Y50fgPQB0Qw" Selector="&lt;html app='chrome.exe' title='Customer Service' /&gt;" Url="https://automationplayground.com/crm/" Version="V2" />
+            <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="u6_IjPcll0yRVEXbgE0GQQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGySURBVDhPpZHdK4NRHMf9E0q5cOHKhQsvKcmN0pJcuELKDSkXLly40iaEG8qFcCOTkNawsheytqWJbXm5sHm3Z6+esc08PQ3z7Kvn4Ox5tkj51u90Tqfv5/x+35Pncrnwn8oTF6kmLSc4Z+OI8km8C2nZXbZkAAfDwnYdRP7AAuqmdSgZW4VS78j2yEQB6TRQPqEhZmn1bdjhj3PZPipZB4NGJzF1r1lhvgygULVIzorZrWwfFQWYPD766vC2C0yMQ9HQEopHlkkeUllDPGbO4ki8ChlAjH/BwqEHBUp1zhh6tw8rVwnMnz8RQJMpgFLNHbS3nHwEX4wjhoqvLFoXdzBlPYUnyhODWG3mEN3X6pjcb3QyEaQEgYQn5hBJvkP8yKoNLzF1WMJQXySg83KYc8dzAVJZgp8v1+gYlGm92LzjyOyNxgCqNxm07AZ/B2hvn2m7y1cJdNnC9PxdvwJE9e2zqNf7obnJwP4ECPMp9B9EULnuhcr5gF47S03N20Gs3TyTMX4EOCJJahg/jqJT0v7YcZQE224O/Qzg3gSSdoPBj569e4wePcpaVxj88hH+Ux9ONlbv+WacjwAAAABJRU5ErkJggg==" InformativeScreenshot="764e01a344527d0476daa8fbf4ad52bb.jpg" Reference="K5uSqGX57kuQTfnDmN_IOg/cCOBaQb48k2Y50fgPQB0Qw" Selector="&lt;html app='chrome.exe' title='Customer Service' /&gt;" Url="https://automationplayground.com/crm/login.html" Version="V2" />
           </uix:NApplicationCard.TargetApp>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">

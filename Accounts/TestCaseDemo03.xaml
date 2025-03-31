@@ -101,7 +101,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="824.0000000000001,1011.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="824.0000000000001,1143.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="Current_Browser" />
     </Sequence.Variables>
@@ -110,7 +110,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="550.4,988" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="TestCaseDemo01" sap:VirtualizedContainerService.HintSize="550.4,1120" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -140,7 +140,7 @@
             </ActivityAction>
           </uix:NApplicationCard.Body>
           <uix:NApplicationCard.TargetApp>
-            <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="TdLZ4GicVkOlkvfLtRMZVA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGySURBVDhPpZHdK4NRHMf9E0q5cOHKhQsvKcmN0pJcuELKDSkXLly40iaEG8qFcCOTkNawsheytqWJbXm5sHm3Z6+esc08PQ3z7Kvn4Ox5tkj51u90Tqfv5/x+35Pncrnwn8oTF6kmLSc4Z+OI8km8C2nZXbZkAAfDwnYdRP7AAuqmdSgZW4VS78j2yEQB6TRQPqEhZmn1bdjhj3PZPipZB4NGJzF1r1lhvgygULVIzorZrWwfFQWYPD766vC2C0yMQ9HQEopHlkkeUllDPGbO4ki8ChlAjH/BwqEHBUp1zhh6tw8rVwnMnz8RQJMpgFLNHbS3nHwEX4wjhoqvLFoXdzBlPYUnyhODWG3mEN3X6pjcb3QyEaQEgYQn5hBJvkP8yKoNLzF1WMJQXySg83KYc8dzAVJZgp8v1+gYlGm92LzjyOyNxgCqNxm07AZ/B2hvn2m7y1cJdNnC9PxdvwJE9e2zqNf7obnJwP4ECPMp9B9EULnuhcr5gF47S03N20Gs3TyTMX4EOCJJahg/jqJT0v7YcZQE224O/Qzg3gSSdoPBj569e4wePcpaVxj88hH+Ux9ONlbv+WacjwAAAABJRU5ErkJggg==" InformativeScreenshot="764e01a344527d0476daa8fbf4ad52bb.jpg" Reference="K5uSqGX57kuQTfnDmN_IOg/cCOBaQb48k2Y50fgPQB0Qw" Selector="&lt;html app='chrome.exe' title='Customer Service' /&gt;" Url="https://automationplayground.com/crm/" Version="V2" />
+            <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="u6_IjPcll0yRVEXbgE0GQQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGySURBVDhPpZHdK4NRHMf9E0q5cOHKhQsvKcmN0pJcuELKDSkXLly40iaEG8qFcCOTkNawsheytqWJbXm5sHm3Z6+esc08PQ3z7Kvn4Ox5tkj51u90Tqfv5/x+35Pncrnwn8oTF6kmLSc4Z+OI8km8C2nZXbZkAAfDwnYdRP7AAuqmdSgZW4VS78j2yEQB6TRQPqEhZmn1bdjhj3PZPipZB4NGJzF1r1lhvgygULVIzorZrWwfFQWYPD766vC2C0yMQ9HQEopHlkkeUllDPGbO4ki8ChlAjH/BwqEHBUp1zhh6tw8rVwnMnz8RQJMpgFLNHbS3nHwEX4wjhoqvLFoXdzBlPYUnyhODWG3mEN3X6pjcb3QyEaQEgYQn5hBJvkP8yKoNLzF1WMJQXySg83KYc8dzAVJZgp8v1+gYlGm92LzjyOyNxgCqNxm07AZ/B2hvn2m7y1cJdNnC9PxdvwJE9e2zqNf7obnJwP4ECPMp9B9EULnuhcr5gF47S03N20Gs3TyTMX4EOCJJahg/jqJT0v7YcZQE224O/Qzg3gSSdoPBj569e4wePcpaVxj88hH+Ux9ONlbv+WacjwAAAABJRU5ErkJggg==" InformativeScreenshot="764e01a344527d0476daa8fbf4ad52bb.jpg" Reference="K5uSqGX57kuQTfnDmN_IOg/cCOBaQb48k2Y50fgPQB0Qw" Selector="&lt;html app='chrome.exe' title='Customer Service' /&gt;" Url="https://automationplayground.com/crm/login.html" Version="V2" />
           </uix:NApplicationCard.TargetApp>
         </uix:NApplicationCard>
         <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="lc-058.hpcg@hotmail.com" Body="[&quot;Se informa que la generación de entregables de ejecución de pruebas ha sido finalizada&quot;+vbNewLine+&quot;Revise que la información se encuentre correctamente procesada por favor.&quot;+vbNewLine+&quot;Saludos&quot;+vbNewLine+vbNewLine+&quot;Atte. RPA Robot&quot;]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="483.2,172" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="High" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="Generación de Entregable de ejecución" To="nestor.moreno@hpcg.com.mx" UseISConnection="True">
@@ -153,14 +153,12 @@
           </ui:SendOutlookMail.ConnectionDetailsBackupSlot>
           <ui:SendOutlookMail.Files>
             <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-              <InArgument x:TypeArguments="x:String">
-                <Literal x:TypeArguments="x:String">Costumers\Insights Report - 20250225.docx</Literal>
-              </InArgument>
+              <InArgument x:TypeArguments="x:String">Costumers\Insights Report - 20250225.docx</InArgument>
             </scg:List>
           </ui:SendOutlookMail.Files>
         </ui:SendOutlookMail>
       </Sequence>
-      <Sequence DisplayName="Steps" sap:VirtualizedContainerService.HintSize="516.8,56.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence DisplayName="Steps" sap:VirtualizedContainerService.HintSize="516.8,100.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -169,7 +167,7 @@
         </sap:WorkflowViewStateService.ViewState>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Test 3: Executing Steps&quot;]" />
       </Sequence>
-      <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="516.8,56.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="516.8,100.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -178,7 +176,7 @@
         </sap:WorkflowViewStateService.ViewState>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Test 3: Verifying&quot;]" />
       </Sequence>
-      <Sequence DisplayName="Teardown" sap:VirtualizedContainerService.HintSize="516.8,48" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <Sequence DisplayName="Teardown" sap:VirtualizedContainerService.HintSize="516.8,92" sap2010:WorkflowViewState.IdRef="Sequence_6">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
