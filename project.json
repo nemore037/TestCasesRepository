@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.157.0",
-  "projectVersion": "1.0.197139529",
+  "projectVersion": "1.0.197219776",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -76,6 +76,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Accounts\\TestCaseDemo04.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "19038bab-6a8c-47cf-855c-3fc5161078a1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Accounts\\TestCaseDemo05.xaml"
       }
     ],
     "saveToCloud": false

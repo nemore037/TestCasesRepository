@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QHLmLv2Oi06GqnUkZMBdgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationplayground.com/crm/customers.html" CVScreenId="3d2f44e3-edf2-40d5-9260-68a0fa29207c" CvTextArea="392, 421, 41, 16" CvType="AnyWordGroup" DesignTimeRectangle="384, 408, 404, 71" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='customers' tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' /&gt;" Guid="26428096-25f3-4ed0-95a2-26f7865e1edc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Customers' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3d2f44e3-edf2-40d5-9260-68a0fa29207c" CvTextArea="392, 374, 93, 17" CvTextArgument="First Name" CvType="Text" DesignTimeRectangle="384, 361, 404, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='customers' tag='TABLE' /&gt;&lt;webctrl aaname='First Name' type='' tag='TH' class='' check:innerText='First Name' /&gt;" Guid="c2e48bfd-c6e3-4314-9cbd-6fbb8a3f9d46" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e74bf863d506658c7f5e8186b75eed2c.png" xmlns="">0MWb0HEoH2EKIGC-Yfc_Tvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
